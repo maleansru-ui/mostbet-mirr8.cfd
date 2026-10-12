@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Disallow: /mostbet
+Disallow: /admin/
+Disallow: /private/
+Disallow: /?s=
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Яндекс
+User-agent: Yandex
+Allow: /
+Disallow: /mostbet
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /mostbet
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /mostbet
+Crawl-delay: 2
+
+Host: mostbet-mirr8.cfd
+Sitemap: https://mostbet-mirr8.cfd/sitemap.xml
